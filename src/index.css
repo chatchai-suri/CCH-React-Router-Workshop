@@ -3,3 +3,8 @@
   /* themes: light --default, dark --prefersdark, cupcake; */
   themes: light --default;
 }
+
+a.active {
+  font-weight: 700;
+  color: #554539
+}
