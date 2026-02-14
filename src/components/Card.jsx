@@ -1,7 +1,7 @@
 
 function Card({children}) {
   return (
-    <div className="max-w-lg p-4 bg-white shadow-sm">
+    <div className="max-w-xl p-4 bg-white shadow-sm">
       {children}
     </div>
   )
