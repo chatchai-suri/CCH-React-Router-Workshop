@@ -12,7 +12,8 @@ function Navbar() {
         <li className={style.liLink}><NavLink to="/journey">JOURNEY /</NavLink></li>
         <li className={style.liLink}><NavLink to="/inspiration">INSPIRATION /</NavLink></li>
         <li className={style.liLink}><NavLink to="/about">ABOUT /</NavLink></li>
-        <li className={style.liLink}><NavLink to="/contact">CONTACT</NavLink></li>
+        <li className={style.liLink}><NavLink to="/contact">CONTAC /</NavLink></li>
+        <li className={style.liLink}><NavLink to="/shop">SHOP</NavLink></li>
       </ul>
     </nav>
   );
