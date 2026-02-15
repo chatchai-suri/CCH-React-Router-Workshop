@@ -24,7 +24,7 @@ function Navbar() {
         <button onClick={()=>changeLanguage("en")} className={`${style.langBtn} ${lang==="en" ? "bg-amber-200" : "bg-white"}`} >EN</button>
       </div>
       <ul className="flex gap-1 text-xs font-normal">
-        <li className={style.liLink}><NavLink to={`/${lang}`}>HOME /</NavLink></li>
+        <li className={style.liLink}><NavLink to={`/${lang}`} end>HOME /</NavLink></li>
         <li className={style.liLink}><NavLink to={`/${lang}/lifestyle`}>LIFESTYLE /</NavLink></li>
         <li className={style.liLink}><NavLink to={`/${lang}/journey`}>JOURNEY /</NavLink></li>
         <li className={style.liLink}><NavLink to={`/${lang}/inspiration`}>INSPIRATION /</NavLink></li>
